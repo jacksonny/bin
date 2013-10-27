@@ -1,0 +1,6 @@
+#!/bin/sh
+
+read F1
+F=`echo $F1 | sed s/\ /+/g`
+
+open "/Applications/$F.app"
